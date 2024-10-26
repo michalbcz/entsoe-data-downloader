@@ -60,8 +60,8 @@ def download_data(year, countryName, areaCode, cookies):
 
 # Fill your values. You can get them from the browser's developer tools after you login
 cookies = {
-    "SESSION": "MTgyMDA5MDUtOTZhYy00ZTI4LTg2YzctYWM4OTEzMmU1NmVk",
-    "JSESSIONID": "84084094D88A6CAC3579FEB0B13AAA30",
+    "SESSION": "<copy cookie from your browser after login here>",
+    "JSESSIONID": "<copy cookie from your browser after login here>",
 }
 
 with ThreadPoolExecutor(max_workers=10) as executor:
