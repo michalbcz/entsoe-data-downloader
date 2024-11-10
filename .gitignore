@@ -1,7 +1,13 @@
 # Project specific
+data/
+data.zip
+combined.csv
 
 # VS Code
 .history/
+
+# UV
+.python-version
 
 # Taken from: https://github.com/github/gitignore/blob/main/Python.gitignore
 
